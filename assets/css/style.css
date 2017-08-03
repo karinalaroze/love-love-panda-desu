@@ -6,3 +6,35 @@ font-family: 'Raleway', sans-serif;
 */
 
 /* Escribe tu código acá debajo */
+*{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+}
+
+nav{
+	background-color: #F78E69;
+	z-index: 2;
+	padding: 40px;
+}
+ nav h1{
+ 	padding-left: 70%;
+ }
+
+ nav p{
+ 	padding-left: 75%;
+ }
+
+.uno{
+	background-image: url('../img/uno.jpg');
+	padding:40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+
