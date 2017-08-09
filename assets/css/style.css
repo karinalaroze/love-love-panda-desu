@@ -12,28 +12,86 @@ font-family: 'Raleway', sans-serif;
 	padding: 0;
 }
 
-body{
-}
-
 nav{
+	height: 107px;
 	background-color: #F78E69;
-	z-index: 2;
-	padding: 40px;
 }
- nav h1{
- 	padding-left: 70%;
- }
 
- nav p{
- 	padding-left: 75%;
- }
-
-.uno{
-	background-image: url('../img/uno.jpg');
-	padding:40vh;
+.uno {
+	background-image: url(../img/uno.jpg);
+	padding:25vh;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+
+.dos{
+	background-color: #ABE188;
+	padding: 100px;
+	height: 600px;
+}
+.mb0{
+	padding-bottom: 0;
+}
+
+ hr{
+	border: 10px solid #F78E69;
+}
+
+.texto{
+	background-color: #F78E69;
+	padding: 10px;
+}
+
+.cuadrado{
+	width: 500px;
+	
+}
+
+.tres{
+	background-image: url(../img/dos.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 25vh;
+	padding-bottom: 490px;
+}
+
+.cuatro{
+	background-color: #ABE188;
+	padding: 100px;
+	height: 500px;
+}
+
+.cuatro h4{
+	font-size: 50px;
+	color: white;
+
+}
+
+.cuatro img{
+	margin-top: 30px;
+	border: 10px solid white;
+}
+
+.cinco{
+	background-image: url(../img/tres.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 25vh;
+	padding-bottom: 300px;
+}
+
+footer{
+	background-color: #F78E69;
+	height: 60px;
+}
+
+footer h5{
+	margin-left: 55%;
+	color: white;
 }
 
 
